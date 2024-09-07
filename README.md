@@ -1,7 +1,7 @@
 ## 베라체인 스크립트 돌리는 방법
 
 ```bash
-https://raw.githubusercontent.com/byonjuk/berachain/main/beranode.sh
+curl -s https://raw.githubusercontent.com/byonjuk/berachain/main/beranode.sh | bash
 ```
 
 입력하고
