@@ -1,17 +1,23 @@
 ## 베라체인 스크립트 돌리는 방법
 
 ```bash
-실행 명령어
+https://raw.githubusercontent.com/byonjuk/berachain/main/beranode.sh
 ```
 
 입력하고
 
 ```bash
-추가로 해야 되는 명령어
+screen -S bera
 ```
 
-입력하기 
+```bash
+make start
+```
+
+입력하기
 
 중간에 나오는 시드번호 기록하기
+
+시드번호 기록했으면 CTRL + A + D 넣어서 빠져나오기
 
 끝.
