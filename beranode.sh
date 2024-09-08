@@ -33,6 +33,12 @@ press_any_key() {
 
 print_color "36" "Install KOREAN"
 
+sudo apt-get install language-pack-ko -y
+
+sudo locale-gen ko_KR.UTF-8
+
+sudo update-locale LANG=ko_KR.UTF-8 LC_MESSAGES=POSIX
+
 print_color "36" "sudo apt update && sudo apt upgrade -y"
 sudo apt update && sudo apt upgrade -y
 
