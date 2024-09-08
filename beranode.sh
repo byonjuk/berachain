@@ -42,6 +42,7 @@ sudo update-locale LANG=ko_KR.UTF-8 LC_MESSAGES=POSIX
 print_color "36" "sudo apt update && sudo apt upgrade -y"
 sudo apt update && sudo apt upgrade -y
 
+sudo apt-get update && sudo apt autoremove -y
 print_color "36" "sudo apt -qy install git make screen jq"
 sudo apt -qy install git make screen jq
 
