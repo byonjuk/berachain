@@ -77,7 +77,7 @@ print_color "36" "git clone https://github.com/berachain/polaris"
 git clone https://github.com/berachain/polaris
 
 print_color "36" "cd polaris"
-cd ~/polaris
+cd $HOME/polaris
 
 print_color "36" "git checkout main"
 git checkout main
